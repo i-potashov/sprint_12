@@ -1,0 +1,24 @@
+{
+  "name": "sprint_12",
+  "version": "1.0.0",
+  "description": "Training project - sprint_12 Configuring the server in a Node.js vs express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-potashov/sprint_12.git"
+  },
+  "author": "I.Potashov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i-potashov/sprint_12/issues"
+  },
+  "homepage": "https://github.com/i-potashov/sprint_12#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
