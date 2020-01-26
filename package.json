@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "eslint": "eslint app.js routes",
-    "eslintfix": "eslint app.js routes --fix"
+    "eslint": "eslint .",
+    "eslintfix": "eslint . --fix"
   },
   "repository": {
     "type": "git",

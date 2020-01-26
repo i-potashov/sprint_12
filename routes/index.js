@@ -5,6 +5,6 @@ const cards = require('./cards');
 router.use('/users', users);
 router.use('/cards', cards);
 router.use('/*', (req, res) => {
-  res.send({ message: 'Запрашиваемый ресурс не найден' }, 404);
+  res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
 });
 module.exports = router;

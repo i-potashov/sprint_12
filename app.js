@@ -4,7 +4,9 @@ const app = express();
 const path = require('path');
 const routes = require('./routes');
 
-const { PORT = 3000 } = process.env;
+const { PORT: PORT_DEV } = require('./config');
+
+const { PORT = PORT_DEV } = process.env;
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
