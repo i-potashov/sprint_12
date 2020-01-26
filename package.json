@@ -4,7 +4,10 @@
   "description": "Training project - sprint_12 Configuring the server in a Node.js vs express.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "eslint": "eslint app.js routes",
+    "eslintfix": "eslint app.js routes --fix"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,11 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.0"
+    "eslint-plugin-import": "^2.20.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
   }
 }
